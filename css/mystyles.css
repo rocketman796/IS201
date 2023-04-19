@@ -1,0 +1,76 @@
+.bold  {font-weight: bold !important;
+        font-family: Arial, Helvetica, sans-serif;}
+
+.normal{font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        color: whitesmoke;
+        font-size: medium;
+        opacity: 1;
+        z-index: 1;}
+
+.titles{font-weight: bold !important;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: xx-large;
+        opacity: 1;
+        z-index: 1;}
+
+.links{color: wheat;
+       text-decoration: none;
+       opacity: 1;
+       font-family: Arial, Helvetica, sans-serif;}
+
+.links:hover{text-decoration: underline;}
+
+.links:visited {color: lightblue;}
+
+.bg{background-image: url(../assets/img/stars-bg.jpg);
+    background-size: 4000px;}
+
+.body{top: 115px;
+        left: 5px;
+        right: 5px;
+        bottom: 40px;
+        background-color: black;
+        opacity: .8;
+        z-index: 2;
+        border-bottom: solid 1px white;
+        padding-left: 5px;
+        padding-right: 5px;}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    border-bottom: solid 1px white;
+    background-color: black;
+    opacity: .8;
+    z-index: 2;
+    text-align: center;
+    padding-top: 5px;}
+
+
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: medium;
+    color: #999999;
+    text-align: center;
+    padding: top 15px;
+    position: fixed;
+    }
+
+ol{font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: medium;
+    opacity: 1;
+    z-index: 1;}
+
+.buffer{top: 5px;
+        left: 5px;
+        right: 5px;}
+
+.center{text-align: center;}
